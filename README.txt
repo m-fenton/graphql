@@ -1,1 +1,3 @@
 graphql
+
+gitea token = 171745f0bfee72685c8a0a34ea9814d47bb9103e
