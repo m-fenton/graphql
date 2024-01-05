@@ -5,22 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub Pages GraphQL App</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+
     <div id="app">
-       
-        This is where all the data will go!
         <br><br>
         <form id="login-form">
-            username or email
+            <h1>Check My Graphs</h1>
             <br>
-            <input id="username" class="username" />
             <br>
-            password
+            Username or Email
             <br>
-            <input id="password" class="password" type="password" />
+            <input id="username" class="username" required/>
             <br>
-            <button id="submit" class="submit">submit</button>
+            Password
+            <br>
+            <input id="password" class="password" type="password" required/>
+            <br>
+            <br>
+            <button id="submit" class="submit">Submit</button>
+            <br>
+            <br>
+            <div id="error-message" style="color: red;"></div>
         </form>
     </div>
 

@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0e355392;  
+    text-align: center;  
+}
+
+#login-form {
+    max-width: 300px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+#submit {
+    background-color: #040404;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#submit:hover {
+    background-color: #45a049;
+}
+
+#error-message {
+    margin-top: 10px;
+    color: red;
+    font-size: 14px;
+}
+
+#logoutButton {
+    background-color: #040404;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#resultContainer {
+    max-width: 1000px;
+    margin: 200px;
+    margin-top: 10px;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
